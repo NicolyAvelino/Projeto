@@ -1,0 +1,22 @@
+<body style="margin:0; padding:0; font-family:Helvetica">
+  <header style="background-color:#000; text-align:center; padding:5px; margin-bottom:20px">
+    <h1 style="color:#9BF2EA;">Histórico Escolar </h1>
+  </header>
+
+<table style="border: 0; width:70%; margin-left:auto; margin-right:auto;">
+  <tr style="font-size: 15px">
+    <th style="background-color:#9BF2EA; padding: 10px 0 10px 0px">Disciplina</th>  
+    <th style="background-color:#9BF2EA; padding: 10px 0 10px 0px">Status</th>  
+  </tr>
+
+  {{#historico}}
+    <tr style="font-size: 13px">
+      <td style="padding:5px 0">{{nm}}</td>  
+      <td style="padding:5px 0">{{sts}}</td>  
+    </tr>
+  {{/historico}}
+</table>
+
+{{> footer}}
+
+</body>

@@ -1,0 +1,9 @@
+<body style="background-color:#000; margin:0; padding:0; font-family:Helvetica;">
+  <div style="text-align: center;color: #9BF2EA; display: flex;flex-flow: row wrap;justify-content: center; height: 100%">
+    <div style="align-self: center;">
+      <h1 style="font-size:50px;">Bem-Vindo a Página Home =)</h1>
+      <p style="font-size:20px;">Desenvolvido na arquitetura MVC, em Node.JS com os frameworks Mustache e Express.</p>
+      <p style="font-size:15px;">Feito no repl.it. Para acessar as demais rotas só adicionar /grade ou /historico.</p>
+    </div>
+  </div>
+</body>
